@@ -20,7 +20,7 @@ const paragraphVariants = cva(
 interface ParagraphProps
   extends HTMLAttributes<HTMLParagraphElement>,
     VariantProps<typeof paragraphVariants> {
-  message: string;
+  
 }
 const Paragraph = forwardRef<HTMLParagraphElement, ParagraphProps>(
     ({ className, size, children, ...props }, ref) => {

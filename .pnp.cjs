@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@radix-ui/react-dropdown-menu", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:2.0.4"],\
             ["@radix-ui/react-scroll-area", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.3"],\
             ["@radix-ui/react-tabs", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.3"],\
+            ["@tailwindcss/typography", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:0.5.9"],\
             ["@total-typescript/ts-reset", "npm:0.4.2"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/react", "npm:18.0.33"],\
@@ -68,6 +69,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["simplebar-react", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.2.3"],\
             ["tailwind-merge", "npm:1.12.0"],\
             ["tailwindcss", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.3.1"],\
+            ["tailwindcss-animate", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.5"],\
             ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"],\
             ["zod", "npm:3.21.4"]\
           ],\
@@ -1819,6 +1821,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@swc/helpers", "npm:0.4.14"],\
             ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tailwindcss/typography", [\
+        ["npm:0.5.9", {\
+          "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.9-c16859b9da-b98e21bdd1.zip/node_modules/@tailwindcss/typography/",\
+          "packageDependencies": [\
+            ["@tailwindcss/typography", "npm:0.5.9"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:0.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-e138e1a73d/0/cache/@tailwindcss-typography-npm-0.5.9-c16859b9da-b98e21bdd1.zip/node_modules/@tailwindcss/typography/",\
+          "packageDependencies": [\
+            ["@tailwindcss/typography", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:0.5.9"],\
+            ["@types/tailwindcss", null],\
+            ["lodash.castarray", "npm:4.4.0"],\
+            ["lodash.isplainobject", "npm:4.0.6"],\
+            ["lodash.merge", "npm:4.6.2"],\
+            ["postcss-selector-parser", "npm:6.0.10"],\
+            ["tailwindcss", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5000,6 +5028,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.castarray", [\
+        ["npm:4.4.0", {\
+          "packageLocation": "./.yarn/cache/lodash.castarray-npm-4.4.0-f3706198e9-fca8c7047e.zip/node_modules/lodash.castarray/",\
+          "packageDependencies": [\
+            ["lodash.castarray", "npm:4.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.isplainobject", [\
+        ["npm:4.0.6", {\
+          "packageLocation": "./.yarn/cache/lodash.isplainobject-npm-4.0.6-d73937742f-29c6351f28.zip/node_modules/lodash.isplainobject/",\
+          "packageDependencies": [\
+            ["lodash.isplainobject", "npm:4.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.merge", [\
         ["npm:4.6.2", {\
           "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",\
@@ -6022,6 +6068,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss-selector-parser", [\
+        ["npm:6.0.10", {\
+          "packageLocation": "./.yarn/cache/postcss-selector-parser-npm-6.0.10-a4d7aaa270-46afaa60e3.zip/node_modules/postcss-selector-parser/",\
+          "packageDependencies": [\
+            ["postcss-selector-parser", "npm:6.0.10"],\
+            ["cssesc", "npm:3.0.0"],\
+            ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:6.0.11", {\
           "packageLocation": "./.yarn/cache/postcss-selector-parser-npm-6.0.11-b2f8bf39d3-0b01aa9c2d.zip/node_modules/postcss-selector-parser/",\
           "packageDependencies": [\
@@ -6693,6 +6748,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@radix-ui/react-dropdown-menu", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:2.0.4"],\
             ["@radix-ui/react-scroll-area", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.3"],\
             ["@radix-ui/react-tabs", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.3"],\
+            ["@tailwindcss/typography", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:0.5.9"],\
             ["@total-typescript/ts-reset", "npm:0.4.2"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/react", "npm:18.0.33"],\
@@ -6723,6 +6779,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["simplebar-react", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.2.3"],\
             ["tailwind-merge", "npm:1.12.0"],\
             ["tailwindcss", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.3.1"],\
+            ["tailwindcss-animate", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.5"],\
             ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"],\
             ["zod", "npm:3.21.4"]\
           ],\
@@ -7135,6 +7192,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/postcss",\
             "postcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwindcss-animate", [\
+        ["npm:1.0.5", {\
+          "packageLocation": "./.yarn/cache/tailwindcss-animate-npm-1.0.5-09217b9bce-6b558f85a6.zip/node_modules/tailwindcss-animate/",\
+          "packageDependencies": [\
+            ["tailwindcss-animate", "npm:1.0.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.5", {\
+          "packageLocation": "./.yarn/__virtual__/tailwindcss-animate-virtual-cd2aad2420/0/cache/tailwindcss-animate-npm-1.0.5-09217b9bce-6b558f85a6.zip/node_modules/tailwindcss-animate/",\
+          "packageDependencies": [\
+            ["tailwindcss-animate", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:1.0.5"],\
+            ["@types/tailwindcss", null],\
+            ["tailwindcss", "virtual:a17701729da346fa07fbe0253903c87d1b75e2d70a88bde38ff5a5b3116da660196f1fee05886351e07f0ec608bd67dcfe3e6ac0d7f9f4a4fb59bab950dcee7c#npm:3.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\
